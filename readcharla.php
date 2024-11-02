@@ -1,4 +1,22 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="RedCharlaStyle.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    </header>
+   
+    <div class="container">
+
+        <div class="CartWhit">
+        <div class="CartBlueImg">
+        <div class="CartBlue">
+            <?php
   $servidor = 'localhost';
   $database = 'app_congreso';
   $usuario  = 'root';
@@ -19,6 +37,7 @@
             <div class="card__content">
               <a href="coments.php?id=<?php echo $row["id"] ?>" class="button v2">ver comentarios</a>
             </div>
+        </div>
       <?php
       }
     }
@@ -28,3 +47,11 @@
 
     $con->close();
 ?>
+    
+           
+          </div>
+        </div>
+    </div>      
+</div>      
+</body>
+</html>

@@ -25,13 +25,4 @@
   else{
         echo "no hay charlas";
     }
-
-
-
-    
-
-
-
-
-
 ?>
