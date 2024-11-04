@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  background-image: url(./Img/imagesfondo.jpg) ;
+  background-size: cover;
+  color: aliceblue;
+}
+.CartWhit{
+  width: 950px;
+  height: 800px;
+  background: #ffffff;
+  border-radius: 19px;
+  margin: 4% auto;
+  overflow: hidden;
+  place-content: center;
+}
+.CartBlueImg{
+  width: 900px;
+  height: 750px;
+  background: #2e25cc;
+  margin: 4% auto;
+  overflow: hidden;
+  place-content: center;
+background-size: cover;
+background-image: url(./Img/FONDO.jpg) ;
+}
+.CartBlue {
+  width: 850px;
+  height: 400px;
+  background: #2e25cc;
+  margin: 4% auto;
+  overflow: hidden;
+  place-content: center;
+background-size: cover;
+}
